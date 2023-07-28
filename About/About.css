@@ -1,0 +1,167 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 1rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.1rem;
+    transition: color 0.2s ease-in-out;
+}
+
+nav a:hover {
+    color: #f0f0f0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.section {
+    padding: 4rem 0;
+}
+
+.section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    color: #007bff;
+}
+
+.profile-picture img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 2rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.about-text p {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+    text-align: left;
+}
+
+.skills-section {
+    margin-top: 3rem;
+}
+
+.skills-section h3 {
+    font-size: 1.8rem;
+    color: #007bff;
+    margin-bottom: 1rem;
+}
+
+.skills-list {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.skills-item {
+    text-align: center;
+    width: 100px;
+    padding: 1rem;
+    border: 2px solid #007bff;
+    border-radius: 16px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.skills-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.skills-item img {
+    width: 70px;
+    height: 80px;
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+}
+
+.skills-item a {
+    text-decoration: none;
+    color: #fb0505;
+}
+
+/* LinkedIn Style */
+#contact {
+    padding: 4rem 0;
+    background-color: #f9f9f9;
+}
+
+.social-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.social-links li {
+    margin: 0 1rem;
+}
+
+.social-links a {
+    text-decoration: none;
+    color: #007bff;
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    transition: color 0.2s ease-in-out;
+}
+
+.social-links a img {
+    width: 30px;
+    height: 30px;
+    margin-right: 0.5rem;
+}
+
+.social-links a:hover {
+    color: #0056b3;
+}
+
+
+.view-project-btn {
+    padding: 1rem 2rem;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.view-project-btn:hover {
+    background-color: #0056b3;
+}
+
+/* Add styles for the rest of the sections here */
